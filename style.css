@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.p-container{
+    display: flex;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    border: solid blueviolet;
+    border-radius: 2rem;
+    gap: 8rem;
+    background: linear-gradient(red , orange);
+    height: 3rem;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.navlist li{
+    color: #fff;
+    
+}
+.f-container ,.s-container{
+    height: 200vh;
+}
+.navlist li a{
+    color: #fff;
+}
+.navlist li:hover{
+    color: aqua;
+    border: solid black;
+    border-radius: 2rem;
+}
+.f-container{
+    background: rgb(19, 19, 31);
+    width: 70%;
+}
+.s-container{
+    width: 30%;
+    background: linear-gradient(rgb(19, 19, 31) ,70%, rgb(37, 37, 236));
+}
+.contain{
+    background: ;
+    position: absolute;
+    margin: 9rem 9vh;
+    font-size: 3.5vh;
+    color: #fff;
+}
+
+.contain p{
+    padding-left: 3.8rem;
+    padding: 4vh ;
+}
+.contain span{
+    color: aqua;
+}
+.contain h1{
+    padding-left: 2rem;
+    padding: 2rem;
+}
+.contain .p2{
+    padding: 2rem;
+    
+}
+.button{
+    position: absolute;
+}
